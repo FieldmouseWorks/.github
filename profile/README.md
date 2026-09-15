@@ -48,9 +48,9 @@ Rust and Axum, SQLite, and an embedded SvelteKit interface: **one executable and
 
 Licensing is project-specific: Conary's client and libraries use **MIT OR Apache-2.0**; its Remi server uses **AGPL-3.0-or-later**. Consolebook uses **AGPL-3.0-only**. See each repository's license files for the terms.
 
-## Supporting work
+## Elsewhere
 
-The organization also hosts the [rpm-rs fork](https://github.com/FieldmouseWorks/rpm-rs), based on the [upstream Rust RPM library](https://github.com/rpm-rs/rpm-rs), and the [Fieldmouse Works website source](https://github.com/FieldmouseWorks/fieldmouseworks.github.io). These support the organization rather than representing additional flagship products.
+The [Fieldmouse Works website source](https://github.com/FieldmouseWorks/fieldmouseworks.github.io) lives in its own repository.
 
 For Peter's persistent-world games, native game reconstruction, and runtime research, see his [personal profile](https://github.com/TusanHomichi).
 
