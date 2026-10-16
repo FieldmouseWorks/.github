@@ -63,4 +63,4 @@ A small creature willing to take on something much larger than itself. That is a
 
 Start with the README and contribution guide in the project that interests you. Reproducible bug reports, documentation corrections, and feedback grounded in real workflows are welcome. For wend, a gap report from a real upgrade that broke is the most useful contribution, and fixes come in as pull requests that CI replays. For Consolebook, use invented examples and never submit real personnel records or operational data.
 
-[fieldmouseworks.com](https://fieldmouseworks.com) · [Peter's profile](https://github.com/TusanHomichi) · [peter@conary.io](mailto:peter@conary.io)
+[fieldmouseworks.com](https://fieldmouseworks.com) · [Peter's profile](https://github.com/TusanHomichi) · [peter@fieldmouseworks.com](mailto:peter@fieldmouseworks.com)
