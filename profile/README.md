@@ -26,7 +26,7 @@ Upgrade a 2007 server to today, one release at a time, along a path someone alre
 
 Routes with passing replays now cover **Debian 4.0 etch (2007) to Debian 13**, **Ubuntu 14.04 to 26.04**, and **CentOS 5, 7, and 8 to AlmaLinux 10**, including the yum-to-dnf crossing and the /usr merge, with no model calls during a replay. A static Rust client is in progress. It will fingerprint a machine, pick a route, snapshot before each hop, and roll back if a check fails, using no model and no network beyond the distribution's mirrors. When a hop breaks, a scrubbed gap report that the user reviews before submitting feeds the next fix.
 
-**Status:** early. CI proves each route's userland in a chroot. Kernels, bootloaders, and real reboots are tested in maintainer-run VMs, where four of the five routes have passed; that tier isn't in CI yet. The fix format may still change, and existing fixes will be migrated by script.
+**Status:** early. CI proves each route's userland in a chroot. Kernels, bootloaders, and real reboots are tested separately in maintainer-run VMs, where every route has passed on at least one of its test machines. The fix format may still change, and existing fixes will be migrated by script.
 
 [Repository](https://github.com/FieldmouseWorks/wend) · [Spec](https://github.com/FieldmouseWorks/wend/blob/main/SPEC.md) · [Contributing](https://github.com/FieldmouseWorks/wend/blob/main/CONTRIBUTING.md) · [Agent playbook](https://github.com/FieldmouseWorks/wend/blob/main/AGENTS.md)
 
