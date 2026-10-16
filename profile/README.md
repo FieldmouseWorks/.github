@@ -14,31 +14,31 @@
 
 Fieldmouse Works builds open-source software for ecosystems that are expensive, restrictive, or difficult to leave. You should be able to run the software, understand how it behaves, move your data, and keep operating on your own terms.
 
-Built and maintained by **[Peter Permenter](https://github.com/TusanHomichi)**. The current focus is Linux package infrastructure and self-hosted software for emergency communications.
+Built and maintained by **[Peter Permenter](https://github.com/TusanHomichi)**. The current focus is upgrade paths for old Linux machines and self-hosted software for emergency communications.
 
 ## Projects
 
-### [Conary](https://github.com/FieldmouseWorks/Conary)
-**Cross-distro Linux package infrastructure**
+### [wend](https://github.com/FieldmouseWorks/wend)
+**Proven upgrade routes for old Linux machines**
 
-A Rust package manager for RPM, DEB, Arch, and native CCS packages on Fedora, Ubuntu, and Arch. Source-format lifecycle contracts, dependency resolution, content-addressed storage, recorded changesets, and immutable system generations make package behavior and recovery explicit.
+Upgrade a 2007 server to today, one release at a time, along a path someone already proved works. wend is a map of small, reviewed fixes for the places where a plain release upgrade breaks, pinned into release-to-release routes. Every route carries evidence: replays from scratch on test machines in which every health check stayed green. The machine's native package manager stays in charge.
 
-The same workspace contains **Remi**, the package-conversion and signed-catalog service. Public package-feed availability is tracked separately from the ability to build or run the client.
+Routes with passing replays now cover **Debian 4.0 etch (2007) to Debian 13**, **Ubuntu 14.04 to 26.04**, and **CentOS 5, 7, and 8 to AlmaLinux 10**, including the yum-to-dnf crossing and the /usr merge, with no model calls during a replay. A static Rust client is in progress. It will fingerprint a machine, pick a route, snapshot before each hop, and roll back if a check fails, using no model and no network beyond the distribution's mirrors. When a hop breaks, a scrubbed gap report that the user reviews before submitting feeds the next fix.
 
-**Status:** pre-alpha preview; use a VM or disposable host. This is not a production replacement for the host's native package manager. Read the [current status](https://github.com/FieldmouseWorks/Conary#status) and [launch gates](https://github.com/FieldmouseWorks/Conary/blob/main/docs/roadmaps/launch-status.json) before testing.
+**Status:** early. Routes cover userland only; kernels, bootloaders, and reboots are not covered yet. The fix format may still change, and existing fixes will be migrated by script.
 
-[Repository](https://github.com/FieldmouseWorks/Conary) · [Documentation and website](https://conary.io) · [Roadmap](https://github.com/FieldmouseWorks/Conary/blob/main/ROADMAP.md) · [Discussions](https://github.com/FieldmouseWorks/Conary/discussions)
+[Repository](https://github.com/FieldmouseWorks/wend) · [Spec](https://github.com/FieldmouseWorks/wend/blob/main/SPEC.md) · [Contributing](https://github.com/FieldmouseWorks/wend/blob/main/CONTRIBUTING.md) · [Agent playbook](https://github.com/FieldmouseWorks/wend/blob/main/AGENTS.md)
 
 ### [Consolebook](https://github.com/FieldmouseWorks/consolebook)
 **Self-hosted training records for emergency communications**
 
-Training programs, Daily Observation Reports, weekly summaries, task signoffs, and trainee histories, with agency-owned data and portable records. Implemented workflows include versioned programs, assignment-scoped access, immutable finalized records, acknowledgments, amendments, verifiable structured exports, and complete trainee packets.
+Training programs, Daily Observation Reports, weekly summaries, task signoffs, and trainee histories, with agency-owned data and portable records. Implemented workflows include versioned programs, assignment-scoped access, immutable finalized records, acknowledgments, amendments, retention policies and holds, verifiable record exports, trainee packets, and a complete installation export that carries everything except credentials.
 
-Rust and Axum, SQLite, and an embedded SvelteKit interface: **one executable and one data directory per installation**. The design targets a small center's ability to operate its own system without a collection of external services.
+Rust and Axum, SQLite, and an embedded SvelteKit interface: **one executable and one data directory per installation**. A one-command Linux installer handles install and upgrade, and every upgrade that migrates the database takes a validated backup first. The design targets a small center's ability to operate its own system without a collection of external services.
 
-**Status:** pre-alpha, usable for development and evaluation only. Do not use production or personnel data. Retention and holds, lawful disposition, attachments, PDF rendering, and stronger restore proof remain on the [roadmap](https://github.com/FieldmouseWorks/consolebook/blob/main/docs/roadmap.md).
+**Status:** pre-alpha, [v0.3.0](https://github.com/FieldmouseWorks/consolebook/releases/latest). Usable for development and evaluation only; do not use production or personnel data. Confirmed disposition, deterministic PDFs, and restore drills on real hosts remain on the [roadmap](https://github.com/FieldmouseWorks/consolebook/blob/main/docs/roadmap.md).
 
-[Repository](https://github.com/FieldmouseWorks/consolebook) · [Architecture](https://github.com/FieldmouseWorks/consolebook/blob/main/docs/architecture.md) · [Product principles](https://github.com/FieldmouseWorks/consolebook/blob/main/PRINCIPLES.md) · [Contributing](https://github.com/FieldmouseWorks/consolebook/blob/main/CONTRIBUTING.md)
+[Repository](https://github.com/FieldmouseWorks/consolebook) · [Install guide](https://github.com/FieldmouseWorks/consolebook/blob/main/docs/install.md) · [Architecture](https://github.com/FieldmouseWorks/consolebook/blob/main/docs/architecture.md) · [Product principles](https://github.com/FieldmouseWorks/consolebook/blob/main/PRINCIPLES.md) · [Contributing](https://github.com/FieldmouseWorks/consolebook/blob/main/CONTRIBUTING.md)
 
 ## Principles
 
@@ -46,13 +46,13 @@ Rust and Axum, SQLite, and an embedded SvelteKit interface: **one executable and
 - **Make state and recovery explicit.** Inspectable behavior, durable records, useful exports, and reproducible recovery matter as much as the happy path.
 - **Keep the claims honest.** Implemented features, experiments, and future plans should be clearly separated. Each project's README and status documents describe its actual readiness.
 
-Licensing is project-specific: Conary's client and libraries use **MIT OR Apache-2.0**; its Remi server uses **AGPL-3.0-or-later**. Consolebook uses **AGPL-3.0-only**. See each repository's license files for the terms.
+Licensing is project-specific: wend's code and content use **MIT OR Apache-2.0**. Consolebook uses **AGPL-3.0-only**. See each repository's license files for the terms.
 
 ## Elsewhere
 
 The [Fieldmouse Works website source](https://github.com/FieldmouseWorks/fieldmouseworks.github.io) lives in its own repository.
 
-For Peter's persistent-world games, native game reconstruction, and runtime research, see his [personal profile](https://github.com/TusanHomichi).
+For Peter's native game reconstruction, persistent-world games, and runtime research, see his [personal profile](https://github.com/TusanHomichi).
 
 ## Why the field mouse?
 
@@ -60,6 +60,6 @@ A small creature willing to take on something much larger than itself. That is a
 
 ## Get involved
 
-Start with the README and contribution guide in the project that interests you. Reproducible bug reports, documentation corrections, and feedback grounded in real workflows are welcome. For Consolebook, use invented examples and never submit real personnel records or operational data.
+Start with the README and contribution guide in the project that interests you. Reproducible bug reports, documentation corrections, and feedback grounded in real workflows are welcome. For wend, a gap report from a real upgrade that broke is the most useful contribution, and fixes come in as pull requests that CI replays. For Consolebook, use invented examples and never submit real personnel records or operational data.
 
 [Peter's profile](https://github.com/TusanHomichi) · [peter@conary.io](mailto:peter@conary.io)
