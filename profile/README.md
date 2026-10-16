@@ -9,6 +9,7 @@
 <p align="center">
   <a href="#projects">Projects</a> ·
   <a href="#principles">Principles</a> ·
+  <a href="https://fieldmouseworks.com">Website</a> ·
   <a href="https://github.com/TusanHomichi">The person behind the work</a>
 </p>
 
@@ -50,7 +51,7 @@ Licensing is project-specific: wend's code and content use **MIT OR Apache-2.0**
 
 ## Elsewhere
 
-The [Fieldmouse Works website source](https://github.com/FieldmouseWorks/fieldmouseworks.github.io) lives in its own repository.
+The website, [fieldmouseworks.com](https://fieldmouseworks.com), is built from [its own repository](https://github.com/FieldmouseWorks/fieldmouseworks.github.io).
 
 For Peter's native game reconstruction, persistent-world games, and runtime research, see his [personal profile](https://github.com/TusanHomichi).
 
@@ -62,4 +63,4 @@ A small creature willing to take on something much larger than itself. That is a
 
 Start with the README and contribution guide in the project that interests you. Reproducible bug reports, documentation corrections, and feedback grounded in real workflows are welcome. For wend, a gap report from a real upgrade that broke is the most useful contribution, and fixes come in as pull requests that CI replays. For Consolebook, use invented examples and never submit real personnel records or operational data.
 
-[Peter's profile](https://github.com/TusanHomichi) · [peter@conary.io](mailto:peter@conary.io)
+[fieldmouseworks.com](https://fieldmouseworks.com) · [Peter's profile](https://github.com/TusanHomichi) · [peter@conary.io](mailto:peter@conary.io)
