@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/FieldmouseWorks/fieldmouseworks.github.io/main/assets/fieldmouse-works-avatar-512.png" alt="Fieldmouse Works: a field mouse looking up from a rock" width="128" height="128">
+  <img src="https://raw.githubusercontent.com/FieldmouseWorks/website/main/assets/fieldmouse-works-avatar-512.png" alt="Fieldmouse Works: a field mouse looking up from a rock" width="128" height="128">
 </p>
 
 <h1 align="center">Fieldmouse Works</h1>
@@ -51,7 +51,7 @@ Licensing is project-specific: wend's code and content use **MIT OR Apache-2.0**
 
 ## Elsewhere
 
-The website, [fieldmouseworks.com](https://fieldmouseworks.com), is built from [its own repository](https://github.com/FieldmouseWorks/fieldmouseworks.github.io).
+The website, [fieldmouseworks.com](https://fieldmouseworks.com), is built from [its own repository](https://github.com/FieldmouseWorks/website).
 
 For Peter's native game reconstruction, persistent-world games, and runtime research, see his [personal profile](https://github.com/TusanHomichi).
 
