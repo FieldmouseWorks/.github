@@ -18,6 +18,18 @@ Built and maintained by **[Peter Permenter](https://github.com/TusanHomichi)**. 
 
 ## Projects
 
+### [Consolebook](https://github.com/FieldmouseWorks/consolebook) · training records for emergency communications
+
+Self-hosted training records for emergency communications centers, with agency-owned data, written by a working 911 dispatcher. `npm run demo` serves a throwaway installation full of invented records; the README has screenshots.
+
+- **The training record, end to end.** Versioned programs, Daily Observation Reports, weekly summaries, task signoffs, and trainee histories, with assignment-scoped access.
+- **Records you can defend.** Finalized records are immutable; corrections create amendments or successor versions. Acknowledgments, retention policies, and holds are built in.
+- **Data you can take with you.** Verifiable record exports, trainee packets, and a complete installation export that carries everything except credentials.
+- **Small enough to run yourself.** One executable and one data directory, installed with one command. Upgrades take a validated backup before any database migration.
+
+**Status:** pre-alpha, [v0.3.0](https://github.com/FieldmouseWorks/consolebook/releases/latest), for development and evaluation only; never use real personnel data. AGPL-3.0-only.<br>
+[Repository](https://github.com/FieldmouseWorks/consolebook) · [Install guide](https://github.com/FieldmouseWorks/consolebook/blob/main/docs/install.md) · [Roadmap](https://github.com/FieldmouseWorks/consolebook/blob/main/docs/roadmap.md) · [Contributing](https://github.com/FieldmouseWorks/consolebook/blob/main/CONTRIBUTING.md)
+
 ### [wend](https://github.com/FieldmouseWorks/wend) · proven upgrade routes for old Linux machines
 
 Upgrade a 2007 server to today, one release at a time, along a path someone already proved works.
@@ -41,18 +53,6 @@ Give a coding agent the whole machine, and make nearly everything it does undoab
 
 **Status:** in daily use on one machine; options may still move. MIT.<br>
 [Repository](https://github.com/FieldmouseWorks/burrow) · [Example machine](https://github.com/FieldmouseWorks/burrow/blob/main/examples/minimal.nix)
-
-### [Consolebook](https://github.com/FieldmouseWorks/consolebook) · training records for emergency communications
-
-Self-hosted training records for emergency communications centers, with agency-owned data.
-
-- **The training record, end to end.** Versioned programs, Daily Observation Reports, weekly summaries, task signoffs, and trainee histories, with assignment-scoped access.
-- **Records you can defend.** Finalized records are immutable; corrections create amendments or successor versions. Acknowledgments, retention policies, and holds are built in.
-- **Data you can take with you.** Verifiable record exports, trainee packets, and a complete installation export that carries everything except credentials.
-- **Small enough to run yourself.** One executable and one data directory, installed with one command. Upgrades take a validated backup before any database migration.
-
-**Status:** pre-alpha, [v0.3.0](https://github.com/FieldmouseWorks/consolebook/releases/latest), for development and evaluation only; never use real personnel data. AGPL-3.0-only.<br>
-[Repository](https://github.com/FieldmouseWorks/consolebook) · [Install guide](https://github.com/FieldmouseWorks/consolebook/blob/main/docs/install.md) · [Roadmap](https://github.com/FieldmouseWorks/consolebook/blob/main/docs/roadmap.md) · [Contributing](https://github.com/FieldmouseWorks/consolebook/blob/main/CONTRIBUTING.md)
 
 ## Principles
 
