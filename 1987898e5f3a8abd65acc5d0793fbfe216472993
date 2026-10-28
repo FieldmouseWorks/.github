@@ -1,0 +1,41 @@
+{
+  "conary": "note v1",
+  "change": "0q4rg3cptm72nxpamqz09bb55b",
+  "repo": {
+    "owner": "FieldmouseWorks",
+    "name": ".github"
+  },
+  "pr": 5,
+  "url": "https://github.com/FieldmouseWorks/.github/pull/5",
+  "summary": "profile: put Consolebook first among the projects",
+  "task": "FieldmouseWorks/remi#82",
+  "author": {
+    "kind": "person",
+    "login": "TusanHomichi",
+    "session": null
+  },
+  "landing": {
+    "revision": "88f5bb6b29b084904e20fadf9677880fe72c28bb0dc8190fd62237a669eb1d21",
+    "before": "6da5b845be5fb5f02981b8d848d8decd66620da9",
+    "after": "1987898e5f3a8abd65acc5d0793fbfe216472993",
+    "by": {
+      "kind": "status",
+      "login": "TusanHomichi"
+    },
+    "at": 1793141866117
+  },
+  "evidence": [
+    {
+      "kind": "ci",
+      "check": "check / check",
+      "result": "pass",
+      "source": "https://github.com/FieldmouseWorks/.github/actions/runs/40451099839/job/122013758435"
+    },
+    {
+      "kind": "review",
+      "check": "codex",
+      "result": "pass",
+      "source": "https://github.com/FieldmouseWorks/.github/pull/5#pullrequestreview-5662299861"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "conary": "note v1",
+  "change": "2qvtj7phzxfrxhdadbr35xs5nj",
+  "repo": {
+    "owner": "FieldmouseWorks",
+    "name": ".github"
+  },
+  "pr": 6,
+  "url": "https://github.com/FieldmouseWorks/.github/pull/6",
+  "summary": "agents: open PRs ready for review, never as drafts",
+  "task": "FieldmouseWorks/remi#83",
+  "author": {
+    "kind": "person",
+    "login": "TusanHomichi",
+    "session": null
+  },
+  "landing": {
+    "revision": "c888c168357eb96dd3be1f9b21cc1f821dd5c93ae28e32e0ea1e15e03f4ffa59",
+    "before": "1987898e5f3a8abd65acc5d0793fbfe216472993",
+    "after": "c7ab4c820aa3450e749aad259702306c097faa55",
+    "by": {
+      "kind": "status",
+      "login": "TusanHomichi"
+    },
+    "at": 1793141869569
+  },
+  "evidence": [
+    {
+      "kind": "ci",
+      "check": "check / check",
+      "result": "pass",
+      "source": "https://github.com/FieldmouseWorks/.github/actions/runs/40454487197/job/122024516992"
+    },
+    {
+      "kind": "review",
+      "check": "codex",
+      "result": "pass",
+      "source": "https://github.com/FieldmouseWorks/.github/pull/6#pullrequestreview-5662553250"
+    }
+  ]
+}
