@@ -1,0 +1,41 @@
+{
+  "conary": "note v1",
+  "change": "7bb6yrxsx568914ck2nq9y1r85",
+  "repo": {
+    "owner": "fieldmouseworks",
+    "name": ".github"
+  },
+  "pr": 14,
+  "url": "https://github.com/fieldmouseworks/.github/pull/14",
+  "summary": "profile: add Conary, burrow's steward and Consolebook's 911 wording",
+  "task": null,
+  "author": {
+    "kind": "person",
+    "login": "TusanHomichi",
+    "session": null
+  },
+  "landing": {
+    "revision": "60efded708d783cdcb5817fd884572f3b41c7f5e711f47f902ee101238033adb",
+    "before": "9285c36e0875cfc13311b66b84973969b49a3b97",
+    "after": "a0d0308e417fda2526907f2df03b893d2e793790",
+    "by": {
+      "kind": "status",
+      "login": "TusanHomichi"
+    },
+    "at": 1793211514684
+  },
+  "evidence": [
+    {
+      "kind": "ci",
+      "check": "check / check",
+      "result": "pass",
+      "source": "https://github.com/FieldmouseWorks/.github/actions/runs/40743094828/job/123009617255"
+    },
+    {
+      "kind": "review",
+      "check": "codex",
+      "result": "pass",
+      "source": "https://github.com/FieldmouseWorks/.github/pull/14#pullrequestreview-5687581506"
+    }
+  ]
+}
