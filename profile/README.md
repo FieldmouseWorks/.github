@@ -35,7 +35,7 @@ Self-hosted training records for emergency communications centers, with agency-o
 Upgrade a 2007 server to today, one release at a time, along a path someone already proved works.
 
 - **A map, not a magic upgrader.** Small, reviewed fixes for the places where a plain release upgrade breaks, pinned into release-to-release routes. The machine's own package manager stays in charge.
-- **Five routes so far:** Debian 4.0 etch (2007) to Debian 13, Ubuntu 14.04 to 26.04, and CentOS 5, 7 and 8 to AlmaLinux 10, crossing yum to dnf and the /usr merge.
+- **Six routes so far:** Debian 4.0 etch (2007) to Debian 13, Ubuntu 14.04 to 26.04, and CentOS 4, 5, 7 and 8 to AlmaLinux 10, crossing yum to dnf and the /usr merge.
 - **Every route carries evidence:** replays from scratch on test machines, with every health check green. Kernels, bootloaders and real reboots are tested separately in VMs.
 - **No model at upgrade time.** A static Rust client (in progress) will snapshot before each hop and roll back if a check fails. When a hop breaks, a scrubbed gap report the user reviews feeds the next fix.
 
