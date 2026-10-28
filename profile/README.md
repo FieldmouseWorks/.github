@@ -85,4 +85,4 @@ Start with the README and contribution guide of the project that interests you. 
 
 A small creature willing to take on something much larger than itself. That is a useful model for the work here: understand the closed system, then build the open door.
 
-<sub>[fieldmouseworks.com](https://fieldmouseworks.com) ([source](https://github.com/FieldmouseWorks/website)) · [peter@fieldmouseworks.com](mailto:peter@fieldmouseworks.com) · Peter's games and runtime research live on his [personal profile](https://github.com/TusanHomichi).</sub>
+<sub>[fieldmouseworks.com](https://fieldmouseworks.com) ([source](https://github.com/FieldmouseWorks/website)) · [peter@fieldmouseworks.com](mailto:peter@fieldmouseworks.com) · Peter's games live on his [personal profile](https://github.com/TusanHomichi).</sub>
