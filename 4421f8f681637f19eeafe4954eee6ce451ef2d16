@@ -1,0 +1,41 @@
+{
+  "conary": "note v1",
+  "change": "3hhfbg5ftqb96nkad5eyns5rsb",
+  "repo": {
+    "owner": "fieldmouseworks",
+    "name": ".github"
+  },
+  "pr": 10,
+  "url": "https://github.com/fieldmouseworks/.github/pull/10",
+  "summary": "profile: add wend's CentOS 4 route",
+  "task": "FieldmouseWorks/remi#105",
+  "author": {
+    "kind": "person",
+    "login": "TusanHomichi",
+    "session": null
+  },
+  "landing": {
+    "revision": "28395ea42ad7b7d58e7eb70505cb3793fd106b02c2e6b1ebbf22f90ac524cbe4",
+    "before": "a2e49429861f5c5751ea1c63c269b160b573690d",
+    "after": "4421f8f681637f19eeafe4954eee6ce451ef2d16",
+    "by": {
+      "kind": "status",
+      "login": "TusanHomichi"
+    },
+    "at": 1793153693519
+  },
+  "evidence": [
+    {
+      "kind": "ci",
+      "check": "check / check",
+      "result": "pass",
+      "source": "https://github.com/FieldmouseWorks/.github/actions/runs/40619340582/job/122589273043"
+    },
+    {
+      "kind": "review",
+      "check": "codex",
+      "result": "pass",
+      "source": "https://github.com/FieldmouseWorks/.github/pull/10#pullrequestreview-5676932748"
+    }
+  ]
+}
