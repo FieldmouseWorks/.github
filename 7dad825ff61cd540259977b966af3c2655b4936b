@@ -1,0 +1,41 @@
+{
+  "conary": "note v1",
+  "change": "4je2m9edraycw6ames7h37s6nh",
+  "repo": {
+    "owner": "FieldmouseWorks",
+    "name": ".github"
+  },
+  "pr": 16,
+  "url": "https://github.com/FieldmouseWorks/.github/pull/16",
+  "summary": "chore(deps): lock file maintenance (nix)",
+  "task": null,
+  "author": {
+    "kind": "person",
+    "login": "TusanHomichi",
+    "session": null
+  },
+  "landing": {
+    "revision": "b85445076dc946193224038e4540b542e82ba98b3f32b8b25fe88834aa4facd8",
+    "before": "a0d0308e417fda2526907f2df03b893d2e793790",
+    "after": "7dad825ff61cd540259977b966af3c2655b4936b",
+    "by": {
+      "kind": "status",
+      "login": "fieldmouseworks-steward[bot]"
+    },
+    "at": 1793257873203
+  },
+  "evidence": [
+    {
+      "kind": "ci",
+      "check": "check / check",
+      "result": "pass",
+      "source": "https://github.com/FieldmouseWorks/.github/actions/runs/40832682846/job/123310260845"
+    },
+    {
+      "kind": "ci",
+      "check": "renovate/stability-days",
+      "result": "pass",
+      "source": "[left out: it links off GitHub]"
+    }
+  ]
+}
