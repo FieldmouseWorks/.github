@@ -1,0 +1,47 @@
+{
+  "conary": "note v1",
+  "change": "1jcehgyxa38cbb4qd8f6m8pt0p",
+  "repo": {
+    "owner": "fieldmouseworks",
+    "name": ".github"
+  },
+  "pr": 20,
+  "url": "https://github.com/fieldmouseworks/.github/pull/20",
+  "summary": "ci: grant the shared flake check its attestation permissions",
+  "task": "FieldmouseWorks/remi#197",
+  "author": {
+    "kind": "person",
+    "login": "TusanHomichi",
+    "session": null
+  },
+  "landing": {
+    "revision": "5aeeff3dc7914f9fc31233370a6c177cc2eafc4aebd7768f17a459b707e0e49c",
+    "before": "0b4f38470c67576e391888d871c01ac55b433638",
+    "after": "6548c3be3c749a6ed47b06481d6933c498273dc7",
+    "by": {
+      "kind": "status",
+      "login": "fieldmouseworks-steward[bot]"
+    },
+    "at": 1793330351136
+  },
+  "evidence": [
+    {
+      "kind": "ci",
+      "check": "check / commits",
+      "result": "pass",
+      "source": "https://github.com/FieldmouseWorks/.github/actions/runs/40996456577/job/123870611799"
+    },
+    {
+      "kind": "ci",
+      "check": "check / check",
+      "result": "pass",
+      "source": "https://github.com/FieldmouseWorks/.github/actions/runs/40996456577/job/123870611452"
+    },
+    {
+      "kind": "review",
+      "check": "codex",
+      "result": "pass",
+      "source": "https://github.com/FieldmouseWorks/.github/pull/20#pullrequestreview-5707697481"
+    }
+  ]
+}
