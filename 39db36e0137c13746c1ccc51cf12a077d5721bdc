@@ -1,0 +1,47 @@
+{
+  "conary": "note v1",
+  "change": "3d96gb7rqzagpazyf9wnhgsbax",
+  "repo": {
+    "owner": "FieldmouseWorks",
+    "name": ".github"
+  },
+  "pr": 36,
+  "url": "https://github.com/FieldmouseWorks/.github/pull/36",
+  "summary": "chore(deps): update fieldmouseworks/burrow digest to 3366f28",
+  "task": null,
+  "author": {
+    "kind": "bot",
+    "login": "fieldmouseworks-workers[bot]",
+    "session": null
+  },
+  "landing": {
+    "revision": "05a1cd4b1002c5c0d59b22d42adc4a93303cbdcf8e84d1d04b2a209045261aa8",
+    "before": "d31bb4e8d71d91e5cb0256fc0d5fc9b83929f619",
+    "after": "39db36e0137c13746c1ccc51cf12a077d5721bdc",
+    "by": {
+      "kind": "status",
+      "login": "fieldmouseworks-steward[bot]"
+    },
+    "at": 1793372061766
+  },
+  "evidence": [
+    {
+      "kind": "ci",
+      "check": "check / check",
+      "result": "pass",
+      "source": "https://github.com/FieldmouseWorks/.github/actions/runs/41075346092/job/124129911757"
+    },
+    {
+      "kind": "ci",
+      "check": "check / commits",
+      "result": "pass",
+      "source": "https://github.com/FieldmouseWorks/.github/actions/runs/41075346092/job/124129911617"
+    },
+    {
+      "kind": "review",
+      "check": "codex",
+      "result": "pass",
+      "source": "https://github.com/FieldmouseWorks/.github/pull/36#pullrequestreview-5714092871"
+    }
+  ]
+}
