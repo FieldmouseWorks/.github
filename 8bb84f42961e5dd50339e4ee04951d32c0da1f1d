@@ -1,0 +1,47 @@
+{
+  "conary": "note v1",
+  "change": "5y10edpsmmqqrkc1c72t5ctfzs",
+  "repo": {
+    "owner": "FieldmouseWorks",
+    "name": ".github"
+  },
+  "pr": 76,
+  "url": "https://github.com/FieldmouseWorks/.github/pull/76",
+  "summary": "chore: update fieldmouseworks/burrow digest to 3fca792",
+  "task": null,
+  "author": {
+    "kind": "bot",
+    "login": "fieldmouseworks-workers[bot]",
+    "session": null
+  },
+  "landing": {
+    "revision": "46877250ae7d448a470733c0c5205e2d3ebe462df168a0e47005a5a3f42eb65b",
+    "before": "b527c900031e644098b42eebe775033a8e09acee",
+    "after": "8bb84f42961e5dd50339e4ee04951d32c0da1f1d",
+    "by": {
+      "kind": "status",
+      "login": "fieldmouseworks-steward[bot]"
+    },
+    "at": 1793475605620
+  },
+  "evidence": [
+    {
+      "kind": "ci",
+      "check": "check / check",
+      "result": "pass",
+      "source": "https://github.com/FieldmouseWorks/.github/actions/runs/41234704452/job/124635937163"
+    },
+    {
+      "kind": "ci",
+      "check": "check / lane into main",
+      "result": "pass",
+      "source": "https://github.com/FieldmouseWorks/.github/actions/runs/41234704452/job/124635917251"
+    },
+    {
+      "kind": "ci",
+      "check": "check / commits",
+      "result": "pass",
+      "source": "https://github.com/FieldmouseWorks/.github/actions/runs/41234704452/job/124635916897"
+    }
+  ]
+}
