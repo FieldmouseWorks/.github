@@ -1,0 +1,53 @@
+{
+  "conary": "note v1",
+  "change": "1b3vcf8q8jq5q3c3h9rk655fqk",
+  "repo": {
+    "owner": "fieldmouseworks",
+    "name": ".github"
+  },
+  "pr": 45,
+  "url": "https://github.com/fieldmouseworks/.github/pull/45",
+  "summary": "profile: say Conary's merge train is next, then undo",
+  "task": null,
+  "author": {
+    "kind": "person",
+    "login": "TusanHomichi",
+    "session": null
+  },
+  "landing": {
+    "revision": "bce1b1aca62499a7e6eac4bc493181e37e1d1f92baf1808e8fefb1f08cae5053",
+    "before": "40e8f2136c6dbb9355f5d5390ff055a237fccd51",
+    "after": "bb23bd1be2014f1f81f2243b63e0cc8f55a344bb",
+    "by": {
+      "kind": "status",
+      "login": "fieldmouseworks-steward[bot]"
+    },
+    "at": 1793418672625
+  },
+  "evidence": [
+    {
+      "kind": "ci",
+      "check": "check / check",
+      "result": "pass",
+      "source": "https://github.com/FieldmouseWorks/.github/actions/runs/41150089763/job/124384301930"
+    },
+    {
+      "kind": "ci",
+      "check": "check / commits",
+      "result": "pass",
+      "source": "https://github.com/FieldmouseWorks/.github/actions/runs/41150089763/job/124384301570"
+    },
+    {
+      "kind": "review",
+      "check": "codex",
+      "result": "fail",
+      "source": "https://github.com/FieldmouseWorks/.github/pull/45#pullrequestreview-5720106417"
+    },
+    {
+      "kind": "review",
+      "check": "codex",
+      "result": "pass",
+      "source": "https://github.com/FieldmouseWorks/.github/pull/45#pullrequestreview-5721036894"
+    }
+  ]
+}
