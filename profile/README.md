@@ -64,7 +64,7 @@ Every change carries why it exists, who made it and what proved it, on top of gi
 - **A log that can't quietly lose history.** The ledger is anchored at a ref on GitHub; every write moves the anchor on, a log that loses ops is refused, and `cn verify` checks all of it.
 - **Served to agents.** conaryd serves the ledger read-only over a Unix socket, and an MCP server offers it to agents as tools.
 
-**Status:** early development. Recording and `why` are done; the merge train, which tests every ready change together in one run, is next, then undo, always as a new change; landing changes in place of burrow's steward comes later. MIT.<br>
+**Status:** early development. Recording and `why` are done; the merge train, which tests every ready change together in one run, is in progress and has landed one repository's PRs since 2026-10-30; undo, always as a new change, is next; landing changes in place of burrow's steward comes later. MIT.<br>
 [Repository](https://github.com/FieldmouseWorks/Conary) · [Milestones](https://github.com/FieldmouseWorks/Conary/blob/main/docs/DESIGN.md#12-milestones)
 
 ## Principles
