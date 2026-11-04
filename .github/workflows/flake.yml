@@ -7,7 +7,7 @@ on:
     branches: [main]
 jobs:
   check:
-    uses: FieldmouseWorks/burrow/.github/workflows/flake-check.yml@0e8465a3814f95f49e16306107a458f67dbbb41d # main
+    uses: FieldmouseWorks/burrow/.github/workflows/flake-check.yml@91396e4190b222c3fbf9da8c785d734f5812271d # main
     # What the shared workflow asks for to attest its result for Conary's
     # ledger. A called job gets no more than its caller grants, and asking for
     # more than that fails the run before it starts.
