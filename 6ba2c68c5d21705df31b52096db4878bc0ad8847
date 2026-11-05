@@ -1,0 +1,89 @@
+{
+  "conary": "note v1",
+  "change": "0pwkeqm6h9jqw5r8yhpjc3qkzx",
+  "repo": {
+    "owner": "FieldmouseWorks",
+    "name": ".github"
+  },
+  "pr": 141,
+  "url": "https://github.com/FieldmouseWorks/.github/pull/141",
+  "summary": "deps: update fieldmouseworks/burrow digest to 7b6fef8",
+  "task": null,
+  "author": {
+    "kind": "bot",
+    "login": "fieldmouseworks-workers[bot]",
+    "session": null
+  },
+  "landing": {
+    "revision": "e4a19ca9fbab7269366e311d18f1fe9d21e60f31b682aca60c30db4ff499764a",
+    "before": "e175218b9a047dc2d32c4e6837cbf11891a07040",
+    "after": "6ba2c68c5d21705df31b52096db4878bc0ad8847",
+    "by": {
+      "kind": "status",
+      "login": "fieldmouseworks-steward[bot]"
+    },
+    "at": 1793841151770
+  },
+  "evidence": [
+    {
+      "kind": "ci",
+      "check": "check / commits",
+      "result": "pass",
+      "source": "https://github.com/FieldmouseWorks/.github/actions/runs/41936340033/job/126945609906"
+    },
+    {
+      "kind": "ci",
+      "check": "renovate/stability-days",
+      "result": "pass",
+      "source": "[left out: it links off GitHub]"
+    },
+    {
+      "kind": "ci",
+      "check": "check / check",
+      "result": "pass",
+      "source": "https://github.com/FieldmouseWorks/.github/actions/runs/41936340033/job/126945664795"
+    },
+    {
+      "kind": "ci",
+      "check": "check / lane into main",
+      "result": "pass",
+      "source": "https://github.com/FieldmouseWorks/.github/actions/runs/41936340033/job/126945609492"
+    },
+    {
+      "kind": "ci",
+      "check": "house",
+      "result": "pass",
+      "source": "https://github.com/FieldmouseWorks/.github/actions/runs/41936339427/job/126945606109"
+    },
+    {
+      "kind": "ci",
+      "check": "house/title (#141)",
+      "result": "pass",
+      "source": "https://github.com/FieldmouseWorks/.github/actions/runs/41936339427"
+    },
+    {
+      "kind": "ci",
+      "check": "house/rust-first (#141)",
+      "result": "pass",
+      "source": "https://github.com/FieldmouseWorks/.github/actions/runs/41936339427"
+    },
+    {
+      "kind": "ci",
+      "check": "house/timers (#141)",
+      "result": "pass",
+      "source": "https://github.com/FieldmouseWorks/.github/actions/runs/41936339427"
+    },
+    {
+      "kind": "ci",
+      "check": "house/file-size (#141)",
+      "result": "pass",
+      "source": "https://github.com/FieldmouseWorks/.github/actions/runs/41936339427"
+    },
+    {
+      "kind": "ci",
+      "check": "house/model-names (#141)",
+      "result": "pass",
+      "source": "https://github.com/FieldmouseWorks/.github/actions/runs/41936339427"
+    }
+  ]
+}
