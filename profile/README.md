@@ -64,7 +64,7 @@ Every change carries why it exists, who made it and what proved it, on top of gi
 - **A log that can't quietly lose history.** The ledger is anchored at a ref on GitHub; every write moves the anchor on, a log that loses ops is refused, and `cn verify` checks all of it.
 - **Served to agents.** conaryd serves the ledger read-only over a Unix socket, and an MCP server offers it to agents as tools.
 
-**Status:** early development. Recording, `why` and undo are done: undo reverts a landed change by its PR, a session's changes or everything since a time, always as a new change. The merge train, which tests ready changes together in one run (a change that needs a person's yes runs alone), is in progress and has landed one repository's PRs since 2026-10-30; landing changes in place of burrow's steward comes later. MIT.<br>
+**Status:** early development. Recording, `why` and undo are done: undo reverts a landed change by its PR, a session's changes or everything since a time, always as a new change. Conary also decides each change's class (which ones need a review round, and which a person) and runs the merge train, which tests ready changes together in one run (a change that needs a person's yes runs alone) and has landed one repository's PRs since 2026-10-30. burrow's steward still asks for the reviews and says when a PR is settled; Conary takes over its jobs one at a time. MIT.<br>
 [Repository](https://github.com/FieldmouseWorks/Conary) · [Roadmap](https://github.com/FieldmouseWorks/Conary/blob/main/docs/DESIGN.md#12-roadmap)
 
 ## Principles
