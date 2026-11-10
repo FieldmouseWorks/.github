@@ -1,0 +1,102 @@
+{
+  "conary": "note v1",
+  "change": "669n67qasw18xm99rw2xhwxw4x",
+  "repo": {
+    "owner": "FieldmouseWorks",
+    "name": ".github"
+  },
+  "pr": 198,
+  "url": "https://github.com/FieldmouseWorks/.github/pull/198",
+  "summary": "deps: lock file maintenance (nix)",
+  "task": null,
+  "author": {
+    "kind": "bot",
+    "login": "fieldmouseworks-workers[bot]",
+    "session": null
+  },
+  "class": "R0",
+  "landing": {
+    "revision": "548d36a5fcf4f82af3926ce3fc2910515de2931d6cfe1b04c7c57703ee8194bc",
+    "before": "66bbe1bb1970011b085f2679f21215e0a0055c8a",
+    "after": "db3bccf847979ddd7bbc8651e5b986da8c36398b",
+    "by": {
+      "kind": "status",
+      "login": "fieldmouseworks-steward[bot]"
+    },
+    "at": 1794301696223
+  },
+  "evidence": [
+    {
+      "kind": "ci",
+      "check": "check / lane into main",
+      "result": "pass",
+      "source": "https://github.com/FieldmouseWorks/.github/actions/runs/42787173739/job/129731215912"
+    },
+    {
+      "kind": "ci",
+      "check": "check / commits",
+      "result": "pass",
+      "source": "https://github.com/FieldmouseWorks/.github/actions/runs/42787173739/job/129731215609"
+    },
+    {
+      "kind": "ci",
+      "check": "renovate/stability-days",
+      "result": "pass",
+      "source": "[left out: it links off GitHub]"
+    },
+    {
+      "kind": "ci",
+      "check": "check / check",
+      "result": "pass",
+      "source": "https://github.com/FieldmouseWorks/.github/actions/runs/42787173739/job/129731253853"
+    },
+    {
+      "kind": "ci",
+      "check": "check / negative",
+      "result": "pass",
+      "source": "https://github.com/FieldmouseWorks/.github/actions/runs/42787173739/job/129731216094"
+    },
+    {
+      "kind": "ci",
+      "check": "house",
+      "result": "pass",
+      "source": "https://github.com/FieldmouseWorks/.github/actions/runs/42787172623/job/129731208268"
+    },
+    {
+      "kind": "ci",
+      "check": "house/title (#198)",
+      "result": "pass",
+      "source": "https://github.com/FieldmouseWorks/.github/actions/runs/42787172623"
+    },
+    {
+      "kind": "ci",
+      "check": "house/rust-first (#198)",
+      "result": "pass",
+      "source": "https://github.com/FieldmouseWorks/.github/actions/runs/42787172623"
+    },
+    {
+      "kind": "ci",
+      "check": "house/timers (#198)",
+      "result": "pass",
+      "source": "https://github.com/FieldmouseWorks/.github/actions/runs/42787172623"
+    },
+    {
+      "kind": "ci",
+      "check": "house/file-size (#198)",
+      "result": "pass",
+      "source": "https://github.com/FieldmouseWorks/.github/actions/runs/42787172623"
+    },
+    {
+      "kind": "ci",
+      "check": "house/guide-size (#198)",
+      "result": "pass",
+      "source": "https://github.com/FieldmouseWorks/.github/actions/runs/42787172623"
+    },
+    {
+      "kind": "ci",
+      "check": "house/model-names (#198)",
+      "result": "pass",
+      "source": "https://github.com/FieldmouseWorks/.github/actions/runs/42787172623"
+    }
+  ]
+}
