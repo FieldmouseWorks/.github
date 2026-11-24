@@ -47,14 +47,14 @@ Upgrade a 2007 server to today, one release at a time, along a path someone alre
 Give your coding agents the whole machine, and make nearly everything they do undoable instead of asking permission for it.
 
 - **Undo instead of prompts.** Agents run without interactive permission prompts. A guard takes a ZFS snapshot before anything deletes files. The few one-way doors (wiping disks, flashing firmware, deleting remote data, force-pushing main) still ask.
-- **Modular engines, swappable roles.** Engine surfaces (`anthropic`, `antigravity`, or any Conary `conary-plugin v5` plugin) plug into the same job scheduler and microVM sandboxes with live per-role routing and a conformance harness (`lib.engineConformance`) so you can bring your own provider—with judging and PR review (currently Codex) moving to the same swappable plugin contract.
+- **Modular engines, swappable roles.** Engine surfaces (`anthropic`, `antigravity`, or any Conary `conary-plugin v5` plugin) plug into the same microVM sandboxes and conformance harness (`lib.engineConformance`) so you can bring your own provider, with live per-role routing (`claude` and `claude-api` today, with `antigravity`, custom plugins, judging, and PR review—currently Codex—moving onto the same swappable plugin contract).
 - **System changes that revert themselves.** A new NixOS generation goes live but isn't the boot default; unless it's confirmed within 10 minutes, the old one comes back. A new kernel gets one trial boot and is dropped if it hangs.
 - **Everything current, unattended.** Flake inputs and configured engine manifests are bumped, built, VM-tested and health-checked before and after; anything that breaks reverts and becomes an agent job. Renovate covers every repository, and new CVEs from CISA KEV, vulnix and osv-scanner become agent jobs the same hour.
 - **Pull requests that land themselves.** An AI reviewer reads each ready PR, agent jobs fix or answer every finding and red check, and the landing pipeline merges the exact head once the review is clean and CI is green. A change the machine's policy classes as documentation alone, touching no one-way path, skips the review and needs green CI alone. Only what can't be undone waits for you.
 - **One front door.** An operator session changes the machine itself and hands project work to per-project headless jobs, or to a microVM per task with allowlisted egress and no GitHub token.
 
 **Status:** in daily use on one machine; options may still move. MIT.<br>
-[Repository](https://github.com/FieldmouseWorks/burrow) · [Example machine](https://github.com/FieldmouseWorks/burrow/blob/main/examples/minimal.nix)
+[Repository](https://github.com/FieldmouseWorks/burrow) · [Adding an engine](https://github.com/FieldmouseWorks/burrow/blob/main/docs/adding-an-engine.md) · [Example machine](https://github.com/FieldmouseWorks/burrow/blob/main/examples/minimal.nix)
 
 ### [Conary](https://github.com/FieldmouseWorks/Conary) · the ledger and landing engine for code that agents write
 
